@@ -25,3 +25,5 @@ app.UseUmbraco()
     });
 
 await app.RunAsync();
+
+System.Diagnostics.Debug.WriteLine("Hello, World!");
