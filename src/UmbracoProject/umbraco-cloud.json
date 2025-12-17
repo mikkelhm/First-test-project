@@ -1,7 +1,17 @@
 {
   "Deploy": {
     "Project": {
-      "Workspaces": []
+      "Name": "first test project",
+      "Alias": "first-test-project",
+      "Id": "dce62343-cb24-4c1f-97a6-fc35db4d1f0f",
+      "Workspaces": [
+        {
+          "Id": "725de28e-1311-46bb-a98c-87243d762931",
+          "Name": "Live",
+          "Type": "live",
+          "Url": "https://first-test-project.euwest01.rainbowsrock.net"
+        }
+      ]
     },
     "Settings": {}
   },
